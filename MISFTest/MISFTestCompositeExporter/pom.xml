@@ -14,7 +14,6 @@
   <name>MISFTestCompositeExporter</name>
   <description>MISFTestCompositeExporter</description>
   <properties>
-    <com.example.metadata_._MySFTest_proxy_metadata>capp/EnterpriseServiceBus</com.example.metadata_._MySFTest_proxy_metadata>
     <com.example.metadata_._SFTestAPI_metadata>capp/EnterpriseServiceBus</com.example.metadata_._SFTestAPI_metadata>
     <com.example.metadata_._SFTestAPI_swagger>capp/EnterpriseServiceBus</com.example.metadata_._SFTestAPI_swagger>
     <com.example.resource_._NewConfig_xsltStyleSheet>capp/EnterpriseServiceBus</com.example.resource_._NewConfig_xsltStyleSheet>
@@ -27,12 +26,6 @@
     
   </properties>
   <dependencies>
-    <dependency>
-      <groupId>com.example.metadata</groupId>
-      <artifactId>MySFTest_proxy_metadata</artifactId>
-      <version>1.0.0</version>
-      <type>yaml</type>
-    </dependency>
     <dependency>
       <groupId>com.example.metadata</groupId>
       <artifactId>SFTestAPI_metadata</artifactId>
